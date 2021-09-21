@@ -1,7 +1,9 @@
-m=int(input("zadaj cislo 1: "))
-a=int(input("zadaj cislo 2: "))
-t=int(input("zadaj cislo 3: "))
+a=int(input("kelko cisel: "))
 priemer = 0
 
-priemer = (m+a+t)/3
-print ("priemer je: ",priemer)
+for n in range(a):
+    cisel = float(input("zadaj cislo: "))
+    priemer += cisel
+
+avg = priemer/a
+print("primer", a ,"cislo je: ", avg)
