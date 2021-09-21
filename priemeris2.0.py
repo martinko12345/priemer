@@ -7,3 +7,5 @@ for n in range(a):
 
 avg = priemer/a
 print("primer", a ,"cislo je: ", avg)
+
+    
